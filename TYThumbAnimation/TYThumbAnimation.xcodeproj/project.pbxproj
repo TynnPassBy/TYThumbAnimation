@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75016D1F227EB30F00287046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D1E227EB30F00287046 /* AppDelegate.m */; };
+		75016D22227EB30F00287046 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D21227EB30F00287046 /* ViewController.m */; };
+		75016D25227EB30F00287046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75016D23227EB30F00287046 /* Main.storyboard */; };
+		75016D28227EB30F00287046 /* TYThumbAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75016D26227EB30F00287046 /* TYThumbAnimation.xcdatamodeld */; };
+		75016D2A227EB31600287046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75016D29227EB31600287046 /* Assets.xcassets */; };
+		75016D2D227EB31600287046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75016D2B227EB31600287046 /* LaunchScreen.storyboard */; };
+		75016D30227EB31600287046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D2F227EB31600287046 /* main.m */; };
+		75016D3A227EB31600287046 /* TYThumbAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D39227EB31600287046 /* TYThumbAnimationTests.m */; };
+		75016D45227EB31600287046 /* TYThumbAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D44227EB31600287046 /* TYThumbAnimationUITests.m */; };
+		75016D54227EB34600287046 /* RBCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D53227EB34600287046 /* RBCLikeButton.m */; };
+		75016D57227EC9D100287046 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75016D56227EC9D100287046 /* UIView+frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75016D36227EB31600287046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75016D12227EB30F00287046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75016D19227EB30F00287046;
+			remoteInfo = TYThumbAnimation;
+		};
+		75016D41227EB31600287046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75016D12227EB30F00287046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75016D19227EB30F00287046;
+			remoteInfo = TYThumbAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75016D1A227EB30F00287046 /* TYThumbAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYThumbAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75016D1D227EB30F00287046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75016D1E227EB30F00287046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75016D20227EB30F00287046 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75016D21227EB30F00287046 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75016D24227EB30F00287046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75016D27227EB30F00287046 /* TYThumbAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TYThumbAnimation.xcdatamodel; sourceTree = "<group>"; };
+		75016D29227EB31600287046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75016D2C227EB31600287046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75016D2E227EB31600287046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75016D2F227EB31600287046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75016D35227EB31600287046 /* TYThumbAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYThumbAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75016D39227EB31600287046 /* TYThumbAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYThumbAnimationTests.m; sourceTree = "<group>"; };
+		75016D3B227EB31600287046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75016D40227EB31600287046 /* TYThumbAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYThumbAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75016D44227EB31600287046 /* TYThumbAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYThumbAnimationUITests.m; sourceTree = "<group>"; };
+		75016D46227EB31600287046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75016D52227EB34600287046 /* RBCLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCLikeButton.h; sourceTree = "<group>"; };
+		75016D53227EB34600287046 /* RBCLikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCLikeButton.m; sourceTree = "<group>"; };
+		75016D55227EC9D100287046 /* UIView+frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		75016D56227EC9D100287046 /* UIView+frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75016D17227EB30F00287046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D32227EB31600287046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D3D227EB31600287046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75016D11227EB30F00287046 = {
+			isa = PBXGroup;
+			children = (
+				75016D1C227EB30F00287046 /* TYThumbAnimation */,
+				75016D38227EB31600287046 /* TYThumbAnimationTests */,
+				75016D43227EB31600287046 /* TYThumbAnimationUITests */,
+				75016D1B227EB30F00287046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75016D1B227EB30F00287046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75016D1A227EB30F00287046 /* TYThumbAnimation.app */,
+				75016D35227EB31600287046 /* TYThumbAnimationTests.xctest */,
+				75016D40227EB31600287046 /* TYThumbAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75016D1C227EB30F00287046 /* TYThumbAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				75016D1D227EB30F00287046 /* AppDelegate.h */,
+				75016D1E227EB30F00287046 /* AppDelegate.m */,
+				75016D20227EB30F00287046 /* ViewController.h */,
+				75016D21227EB30F00287046 /* ViewController.m */,
+				75016D52227EB34600287046 /* RBCLikeButton.h */,
+				75016D53227EB34600287046 /* RBCLikeButton.m */,
+				75016D55227EC9D100287046 /* UIView+frame.h */,
+				75016D56227EC9D100287046 /* UIView+frame.m */,
+				75016D23227EB30F00287046 /* Main.storyboard */,
+				75016D29227EB31600287046 /* Assets.xcassets */,
+				75016D2B227EB31600287046 /* LaunchScreen.storyboard */,
+				75016D2E227EB31600287046 /* Info.plist */,
+				75016D2F227EB31600287046 /* main.m */,
+				75016D26227EB30F00287046 /* TYThumbAnimation.xcdatamodeld */,
+			);
+			path = TYThumbAnimation;
+			sourceTree = "<group>";
+		};
+		75016D38227EB31600287046 /* TYThumbAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				75016D39227EB31600287046 /* TYThumbAnimationTests.m */,
+				75016D3B227EB31600287046 /* Info.plist */,
+			);
+			path = TYThumbAnimationTests;
+			sourceTree = "<group>";
+		};
+		75016D43227EB31600287046 /* TYThumbAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75016D44227EB31600287046 /* TYThumbAnimationUITests.m */,
+				75016D46227EB31600287046 /* Info.plist */,
+			);
+			path = TYThumbAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75016D19227EB30F00287046 /* TYThumbAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75016D49227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimation" */;
+			buildPhases = (
+				75016D16227EB30F00287046 /* Sources */,
+				75016D17227EB30F00287046 /* Frameworks */,
+				75016D18227EB30F00287046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYThumbAnimation;
+			productName = TYThumbAnimation;
+			productReference = 75016D1A227EB30F00287046 /* TYThumbAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75016D34227EB31600287046 /* TYThumbAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75016D4C227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimationTests" */;
+			buildPhases = (
+				75016D31227EB31600287046 /* Sources */,
+				75016D32227EB31600287046 /* Frameworks */,
+				75016D33227EB31600287046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75016D37227EB31600287046 /* PBXTargetDependency */,
+			);
+			name = TYThumbAnimationTests;
+			productName = TYThumbAnimationTests;
+			productReference = 75016D35227EB31600287046 /* TYThumbAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75016D3F227EB31600287046 /* TYThumbAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75016D4F227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimationUITests" */;
+			buildPhases = (
+				75016D3C227EB31600287046 /* Sources */,
+				75016D3D227EB31600287046 /* Frameworks */,
+				75016D3E227EB31600287046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75016D42227EB31600287046 /* PBXTargetDependency */,
+			);
+			name = TYThumbAnimationUITests;
+			productName = TYThumbAnimationUITests;
+			productReference = 75016D40227EB31600287046 /* TYThumbAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75016D12227EB30F00287046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tynn丶";
+				TargetAttributes = {
+					75016D19227EB30F00287046 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					75016D34227EB31600287046 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 75016D19227EB30F00287046;
+					};
+					75016D3F227EB31600287046 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 75016D19227EB30F00287046;
+					};
+				};
+			};
+			buildConfigurationList = 75016D15227EB30F00287046 /* Build configuration list for PBXProject "TYThumbAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75016D11227EB30F00287046;
+			productRefGroup = 75016D1B227EB30F00287046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75016D19227EB30F00287046 /* TYThumbAnimation */,
+				75016D34227EB31600287046 /* TYThumbAnimationTests */,
+				75016D3F227EB31600287046 /* TYThumbAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75016D18227EB30F00287046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75016D2D227EB31600287046 /* LaunchScreen.storyboard in Resources */,
+				75016D2A227EB31600287046 /* Assets.xcassets in Resources */,
+				75016D25227EB30F00287046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D33227EB31600287046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D3E227EB31600287046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75016D16227EB30F00287046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75016D57227EC9D100287046 /* UIView+frame.m in Sources */,
+				75016D54227EB34600287046 /* RBCLikeButton.m in Sources */,
+				75016D22227EB30F00287046 /* ViewController.m in Sources */,
+				75016D1F227EB30F00287046 /* AppDelegate.m in Sources */,
+				75016D30227EB31600287046 /* main.m in Sources */,
+				75016D28227EB30F00287046 /* TYThumbAnimation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D31227EB31600287046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75016D3A227EB31600287046 /* TYThumbAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75016D3C227EB31600287046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75016D45227EB31600287046 /* TYThumbAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75016D37227EB31600287046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75016D19227EB30F00287046 /* TYThumbAnimation */;
+			targetProxy = 75016D36227EB31600287046 /* PBXContainerItemProxy */;
+		};
+		75016D42227EB31600287046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75016D19227EB30F00287046 /* TYThumbAnimation */;
+			targetProxy = 75016D41227EB31600287046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75016D23227EB30F00287046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75016D24227EB30F00287046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75016D2B227EB31600287046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75016D2C227EB31600287046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75016D47227EB31600287046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75016D48227EB31600287046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75016D4A227EB31600287046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75016D4B227EB31600287046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75016D4D227EB31600287046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYThumbAnimation.app/TYThumbAnimation";
+			};
+			name = Debug;
+		};
+		75016D4E227EB31600287046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYThumbAnimation.app/TYThumbAnimation";
+			};
+			name = Release;
+		};
+		75016D50227EB31600287046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYThumbAnimation;
+			};
+			name = Debug;
+		};
+		75016D51227EB31600287046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYThumbAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynn.www.TYThumbAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYThumbAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75016D15227EB30F00287046 /* Build configuration list for PBXProject "TYThumbAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75016D47227EB31600287046 /* Debug */,
+				75016D48227EB31600287046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75016D49227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75016D4A227EB31600287046 /* Debug */,
+				75016D4B227EB31600287046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75016D4C227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75016D4D227EB31600287046 /* Debug */,
+				75016D4E227EB31600287046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75016D4F227EB31600287046 /* Build configuration list for PBXNativeTarget "TYThumbAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75016D50227EB31600287046 /* Debug */,
+				75016D51227EB31600287046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75016D26227EB30F00287046 /* TYThumbAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75016D27227EB30F00287046 /* TYThumbAnimation.xcdatamodel */,
+			);
+			currentVersion = 75016D27227EB30F00287046 /* TYThumbAnimation.xcdatamodel */;
+			path = TYThumbAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75016D12227EB30F00287046 /* Project object */;
+}
